@@ -1,17 +1,12 @@
-// import logo from './logo.svg';
-// import './App.css';
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Nav from './components/Nav';
 
 function App() {
   return (
-    <>
-      <head>
-        <title>Portfolio</title>
-        
-      </head>
+    <>      
       <header>
-        <h1>Eric Spencer</h1>
-        <button className='btn-danger'>button</button>
+        <Nav />
       </header>
     </>
   );
