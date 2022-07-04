@@ -1,3 +1,11 @@
+html {
+  background-color: rgb(50, 54, 86);
+}
+
+#root {
+  background-color: rgb(50, 54, 86);
+}
+
 .navbar-nav li a {
   text-decoration: none;
   color: white;
@@ -7,3 +15,61 @@
 .navbar-nav li:hover {  
   text-decoration: underline;
 }
+
+.nav-active {
+  background: rgb(146, 146, 146);
+}
+
+.none {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-image {
+  background-image: url(/public/hero-image.jpg); 
+  padding-bottom: 5px;
+  height: 10rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  background-color: transparent;
+  color: white;
+  font-size: large;
+}
+
+.name {
+  padding-left: 25px;
+}
+
+.about {
+  width: 50%;
+  text-align: center;
+}
+
+.hero-padding {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 50px;
+}
+
+/* @media screen and (max-width: 480px) {
+  .hero-image {
+    background-image: none;
+  }
+
+  .nav-active {
+    background: none;
+  }
+  
+  h1 {
+    color: black;
+  }
+
+} */
