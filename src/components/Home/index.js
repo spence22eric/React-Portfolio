@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Home() {
     return (
-        <div className='container'>
+        <div className='container-fluid'>
             <div className='row'>
-                <div className='col-lg-12'>
+                <div className='col-sm-12 hero-image pt-5'>
                     <h1>Home Page</h1>
                 </div>
             </div>
