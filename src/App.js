@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './Header';
+import Footer from './components/Footer';
 
 function App() {
+  // const [currentPage, setCurrentPage] = useState('Home');
+
+  // const renderPage = () => {
+  //   if (currentPage === 'Home') {
+  //     return <Home />
+  //   }
+  //   if (currentPage === 'About') {
+  //     return <About />
+  //   }
+  //   if (currentPage === 'Contact') {
+  //     return <Contact />
+  //   }
+  // }
+
+  // const handlePageChange = (page) => setCurrentPage(page);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Footer />
+    </>
+
   );
 }
 
