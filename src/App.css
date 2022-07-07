@@ -17,6 +17,7 @@ footer {
   left: 0;
   bottom: 0;
   right: 0;
+  height: 6rem;
 }
 
 .navbar-nav li:hover {  
@@ -64,6 +65,10 @@ p {
   padding-right: 0px;
   padding-left: 0px;
   padding-bottom: 50px;
+}
+
+.padding {
+  padding-top: 5rem;
 }
 
 /* @media screen and (max-width: 480px) {
