@@ -40,8 +40,14 @@ export default function Nav({ currentPage, handlePageChange }) {
                      </a>
                   </li>
                   <li className='nav-item'>
-                     <a className='nav-link' href='#resume'>Resume</a>
-                  </li>
+                     <a
+                        href='#resume'
+                        onClick={() => handlePageChange('Resume')}
+                        className={currentPage === 'Resume' ? 'nav-active nav-link' : 'nav-link'}
+                     >
+                        Resume
+                     </a>
+                  </li>                  
                </ul>
             </div>
          </div>
