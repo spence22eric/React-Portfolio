@@ -1,8 +1,9 @@
 html {
-  background-color: rgb(50, 54, 86);
+  background-color: rgb(50, 54, 86);  
 }
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;  
 }
 
 #root {
@@ -21,6 +22,10 @@ footer {
   bottom: 0;
   right: 0;
   height: 6rem;
+}
+
+footer a:hover {
+  opacity: .5;
 }
 
 .navbar-nav li:hover {  
@@ -48,7 +53,6 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
   font-family: 'Aladin', cursive;
   font-weight: 500;
@@ -95,10 +99,6 @@ p {
   padding: 5rem 25rem 0 25rem;
 }
 
-footer a:hover {
-  opacity: .5;
-}
-
 .resume-list {
   margin: 5rem 0 0 5rem;  
 }
@@ -108,7 +108,17 @@ footer a:hover {
   font-size: x-large;
 }
 
+.w-60 {
+  width: 60%;
+}
 
+.padding-bottom {
+  padding-bottom: 6rem;
+}
+
+.card-img-top {
+  opacity: 0.9;
+}
 
 @media screen and (max-width: 1200px) {
   .contact-form {
@@ -120,6 +130,10 @@ footer a:hover {
   .portrait {
     height: 150px;
     width: 150px;
+  }
+
+  .card-img-top {
+    height: 200px;
   }
 
 }
