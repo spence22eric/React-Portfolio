@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.8734b2ed.css",
+    "main.js": "/react-portfolio/static/js/main.544a1bfd.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/runbuddy.jpg": "/react-portfolio/static/media/runbuddy.bfa545210459da300644.jpg",
+    "static/media/hero-image.jpg": "/react-portfolio/static/media/hero-image.68a63b13c5ef6554f288.jpg",
+    "static/media/notetaker.jpg": "/react-portfolio/static/media/notetaker.5c3625b446000022a2ee.jpg",
+    "static/media/zookeepr.jpg": "/react-portfolio/static/media/zookeepr.077a0788164800e435f3.jpg",
+    "static/media/pizzahunt.jpg": "/react-portfolio/static/media/pizzahunt.9b99a707a75e25d167cb.jpg",
+    "static/media/Resume - Eric Spencer.docx": "/react-portfolio/static/media/Resume - Eric Spencer.57ae0a4c6ecfd7f0e52b.docx",
+    "index.html": "/react-portfolio/index.html",
+    "main.8734b2ed.css.map": "/react-portfolio/static/css/main.8734b2ed.css.map",
+    "main.544a1bfd.js.map": "/react-portfolio/static/js/main.544a1bfd.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8734b2ed.css",
+    "static/js/main.544a1bfd.js"
+  ]
+}
