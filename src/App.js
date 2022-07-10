@@ -14,8 +14,7 @@ function App() {
   return (
     <div className='padding-bottom'>
       <Router>
-        <Header />
-        <Home />
+        <Header />        
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
