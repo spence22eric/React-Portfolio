@@ -3,7 +3,7 @@ import image1 from '../../assets/other/zookeepr.jpg';
 import image2 from '../../assets/other/pizzahunt.jpg';
 import image3 from '../../assets/other/notetaker.jpg';
 import image4 from '../../assets/other/photoport.jpg';
-import image5 from '../../assets/other/runbuddy.jpg'
+import image5 from '../../assets/other/runbuddy.jpg';
 
 
 export default function Home() {
