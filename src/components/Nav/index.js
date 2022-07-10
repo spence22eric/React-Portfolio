@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Nav({ currentPage, handlePageChange }) {
    return (
@@ -13,35 +14,41 @@ export default function Nav({ currentPage, handlePageChange }) {
                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                   <li className='nav-item'>
-                     <a
-                        href='#home'
+                     <Link 
+                        to='/'
                         onClick={() => handlePageChange('Home')}
                         className={currentPage === 'Home' ? 'nav-active nav-link' : 'nav-link'}
                      >
                         Home
-                     </a>
+                     </Link>
                   </li>
                   <li className='nav-item'>
-                     <a
-                        href='#about'
+                     <Link 
+                        to='/about'
                         onClick={() => handlePageChange('About')}
                         className={currentPage === 'About' ? 'nav-active nav-link' : 'nav-link'}
                      >
                         About Me
-                     </a>
+                     </Link>
                   </li>
                   <li className='nav-item'>
-                     <a
-                        href='#contact'
+                     <Link 
+                        to='/contact'
                         onClick={() => handlePageChange('Contact')}
                         className={currentPage === 'Contact' ? 'nav-active nav-link' : 'nav-link'}
                      >
                         Contact
-                     </a>
+                     </Link>
                   </li>
                   <li className='nav-item'>
-                     <a className='nav-link' href='#resume'>Resume</a>
-                  </li>
+                     <Link 
+                        to='/resume'
+                        onClick={() => handlePageChange('Resume')}
+                        className={currentPage === 'Resume' ? 'nav-active nav-link' : 'nav-link'}
+                     >
+                        Resume
+                     </Link>
+                  </li>                  
                </ul>
             </div>
          </div>

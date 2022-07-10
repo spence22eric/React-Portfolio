@@ -1,32 +1,29 @@
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './Header';
+import './App.css';
+import Header from './components/Header';
 import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
+import About from './components/About';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
+
 
 function App() {
-  // const [currentPage, setCurrentPage] = useState('Home');
-
-  // const renderPage = () => {
-  //   if (currentPage === 'Home') {
-  //     return <Home />
-  //   }
-  //   if (currentPage === 'About') {
-  //     return <About />
-  //   }
-  //   if (currentPage === 'Contact') {
-  //     return <Contact />
-  //   }
-  // }
-
-  // const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <>
-      <Header />
-      <Footer />
-    </>
-
+    <div className='padding-bottom'>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/resume' element={<Resume />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </div>
   );
 }
 
