@@ -2,7 +2,7 @@ import React from 'react';
 import image1 from '../../assets/other/zookeepr.jpg';
 import image2 from '../../assets/other/pizzahunt.jpg';
 import image3 from '../../assets/other/notetaker.jpg';
-// import image4 from '../../assets/other/photoport.jpg';
+import image4 from '../../assets/other/photoport.jpg';
 import image5 from '../../assets/other/runbuddy.jpg'
 
 
@@ -57,7 +57,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    {/* <div className='p-5 col-lg-6 col-md-12'>
+                    <div className='p-5 col-lg-6 col-md-12'>
                         <div className='card bg-dark'>
                             <img className='card-img-top project-image' src={image4} height='286px' alt='card header' />
                             <div className='card-body'>
@@ -66,7 +66,7 @@ export default function Home() {
                                 <a href='https://spence22eric.github.io/Photo-Port/' target='_blank' rel="noopener noreferrer"  className='btn btn-primary'>Click to visit!</a>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
             </section>
         </div>
