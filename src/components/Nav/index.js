@@ -14,7 +14,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                   <li className='nav-item'>
-                     <Link 
+                     <Link
                         to='/'
                         onClick={() => handlePageChange('Home')}
                         className={currentPage === 'Home' ? 'nav-active nav-link' : 'nav-link'}
@@ -23,7 +23,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                      </Link>
                   </li>
                   <li className='nav-item'>
-                     <Link 
+                     <Link
                         to='/about'
                         onClick={() => handlePageChange('About')}
                         className={currentPage === 'About' ? 'nav-active nav-link' : 'nav-link'}
@@ -32,7 +32,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                      </Link>
                   </li>
                   <li className='nav-item'>
-                     <Link 
+                     <Link
                         to='/contact'
                         onClick={() => handlePageChange('Contact')}
                         className={currentPage === 'Contact' ? 'nav-active nav-link' : 'nav-link'}
@@ -41,14 +41,14 @@ export default function Nav({ currentPage, handlePageChange }) {
                      </Link>
                   </li>
                   <li className='nav-item'>
-                     <Link 
+                     <Link
                         to='/resume'
                         onClick={() => handlePageChange('Resume')}
                         className={currentPage === 'Resume' ? 'nav-active nav-link' : 'nav-link'}
                      >
                         Resume
                      </Link>
-                  </li>                  
+                  </li>
                </ul>
             </div>
          </div>

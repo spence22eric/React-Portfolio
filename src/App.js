@@ -8,9 +8,8 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 
-
 function App() {
-
+  
   return (
     <div className='padding-bottom'>
       <Router>
@@ -20,6 +19,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/resume' element={<Resume />} />
+          <Route path='*' element={<Home />} />
         </Routes>
         <Footer />
       </Router>
