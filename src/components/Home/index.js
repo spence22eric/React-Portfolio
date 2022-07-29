@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import image1 from '../../assets/other/zookeepr.jpg';
 import image2 from '../../assets/other/pizzahunt.jpg';
 import image3 from '../../assets/other/notetaker.jpg';
@@ -7,6 +7,39 @@ import image5 from '../../assets/other/runbuddy.jpg';
 
 
 export default function Home() {
+
+    const [projects] = useState([
+        {
+            name: 'awake',
+            description: 'React, JavaScript, Express.js, MongoDB, CSS, Node',
+            link: 'https://intelligent-mandarine-12379.herokuapp.com'
+        },
+        {
+            name: 'run-buddy',
+            description: 'HTML, CSS',
+            link: 'https://spence22eric.github.io/run-buddy/'
+        },
+        {
+            name: 'zookeepr',
+            description: 'JavaScript, Express.js, HTML, CSS',
+            link: 'https://sheltered-sierra-46062.herokuapp.com/'
+        },
+        {
+            name: 'pizzahunt',
+            description: 'JavaScript, MongoDB, Mongoose, HTML, CSS',
+            link: 'https://fast-wave-58965.herokuapp.com/'
+        },
+        {
+            name: 'note-taker',
+            description: 'JavaScript, Express.js, HTML, CSS',
+            link: 'https://thawing-sierra-56493.herokuapp.com/'
+        },
+        {
+            name: 'photo-port',
+            description: 'React, CSS',
+            link: 'https://spence22eric.github.io/Photo-Port/'
+        },
+    ])
     return (
         <div>
             <div className='col-sm-12 hero-image pt-5'>
@@ -63,7 +96,7 @@ export default function Home() {
                             <div className='card-body'>
                                 <h5 className='card-title text-light'>Photo-port</h5>
                                 <p className='card-text'>Built with: <span className='fw-bold'>React, CSS</span></p>
-                                <a href='https://spence22eric.github.io/Photo-Port/' target='_blank' rel="noopener noreferrer"  className='btn btn-primary'>Click to visit!</a>
+                                <a href='https://spence22eric.github.io/Photo-Port/' target='_blank' rel="noopener noreferrer" className='btn btn-primary'>Click to visit!</a>
                             </div>
                         </div>
                     </div>
